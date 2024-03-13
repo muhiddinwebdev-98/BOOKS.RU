@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="icon" href="./fawicon/Лого.svg">
+
+    <link rel="stylesheet" href="./style.min.css">
+
+    <title>BOOKS.RU</title>
+</head>
+
+<body style="background-color: #FFFAF5;">
+    <header>
+        <div class="container">
+            <nav class="nav d-flex justify-content-between align-items-center">
+                <a href="#"><img src="./images/Лого.jpg" alt="logo"></a>
+
+                <ul
+                    class="d-xl-flex justify-content-between list-unstyled gap-3 align-items-center d-sm-none d-xs-none">
+                    <li><a class="text-decoration-none" href="#">Акции</a></li>
+                    <li><a class="text-decoration-none" href="#">Каталог</a></li>
+                    <li><a class="text-decoration-none" href="#">Доставка</a></li>
+                    <li><a class="text-decoration-none" href="#">О магазине</a></li>
+                    <li><a class="text-decoration-none" href="#">Блок</a></li>
+                </ul>
+
+                <div class="search">
+                    <input type="search" placeholder="Поиск">
+                    <i class="bx bx-search"></i>
+                </div>
+
+                <div class="nav_buy">
+                    <i class='bx bx-heart'></i>
+                    <i class='bx bx-cart-download'></i>
+
+                    <select class="select-box">
+                        <option value="">2 228 грн.</option>
+                        <option value="first">2 229 грн.</option>
+                        <option value="second">2 230 грн.</option>
+                        <option value="third">2 231 грн.</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="container">
+
+                <div style="margin-top: 100px;" id="intro" class="row align-items-center">
+
+                    <div class="intro_left col-xl-6 align-items-md-center col-md-12 p-3">
+                        <h1>Киниги от А до Я</h1>
+                        <p style="width: 60%;">В нашем магазине можно найти книгу на любой вкус. Большой ассортимент.
+                            Приятные цены. Интересные сюжеты.</p>
+                        <button class="btn rounded-0 text-light intro_btn" style="background-color: #e16a00;">Перейти в
+                            каталог</button>
+                    </div>
+                    <div class="intro_right col-xl-6 col-md-12 p-3">
+                        <img src="./images/Слайдер-removebg-preview.png" alt="">
+                    </div>
+                </div>
+
+                <div id="cards">
+                    <div class="texts row">
+                        <h1 class="col-4" style="font-weight: 900; font-size: 25px; color: #241400;">Горячие поступления
+                        </h1>
+                        <ul class="col-8 d-xl-flex gap-5 list-unstyled align-items-center">
+                            <li>Фантастика</li>
+                            <li>Саморазвитие</li>
+                            <li>Детективы</li>
+                            <li>Детские</li>
+                            <li>Аудиокниги</li>
+                            <li>Другие</li>
+                        </ul>
+                    </div>
+                    <div style="border: none;" class="cards d-flex justify-content-between pt-5">
+
+                        <div class="d-flex">
+                            <img src="./icons/Vector 2.svg" alt="vector">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 2.jpg" alt="Book">
+                            <h1 style="display: inline-block;">300 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; "
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 3.jpg" alt="Book">
+                            <h1 style="display: inline-block;">225 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 4.jpg" alt="Book">
+                            <h1 style="display: inline-block;">86 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 5.jpg" alt="Book">
+                            <h1 style="display: inline-block;">214 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 6.jpg" alt="Book">
+                            <h1 style="display: inline-block;">778 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img src="./icons/Vector 3.svg" alt="vector">
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center pt-5">
+                        <img src="./icons/Group 1.svg" alt="line">
+                    </div>
+
+
+                </div>
+                <div id="cards" class="pt-5">
+                    <div class="texts row pt-5">
+                        <h1 class="col-12 d-flex align-items-center justify-content-center"
+                            style="font-weight: 900; font-size: 25px; color: #241400; margin-bottom: 60px;">Распродажа
+                        </h1>
+                    </div>
+
+                    <div style="border: none;" class="cards d-flex justify-content-between ">
+
+                        <div class="d-flex">
+                            <img src="./icons/Vector 2.svg" alt="vector">
+                        </div>
+
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 2.jpg" alt="Book">
+                            <h1 style="display: inline-block;">300 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 3.jpg" alt="Book">
+                            <h1 style="display: inline-block;">225 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 4.jpg" alt="Book">
+                            <h1 style="display: inline-block;">86 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 5.jpg" alt="Book">
+                            <h1 style="display: inline-block;">214 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;"
+                            class="card shadow p-2 align-items-center d-flex">
+                            <img width="134" height="190" src="./images/image 6.jpg" alt="Book">
+                            <h1 style="display: inline-block;">778 грн.</h1>
+                            <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                            <p style="display: inline-block;">Константин Коптелов</p>
+                            <div class="d-flex gap-1 align-items-center card-btn">
+                                <button style="background-color: #e16a00;"
+                                    class="btn orange rounded-1 text-light border-1">В корзину</button>
+                                <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <img src="./icons/Vector 3.svg" alt="vector">
+                        </div>
+
+
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-5 pb-5">
+                        <img src="./icons/line-bottom.svg" alt="line">
+                    </div>
+
+                </div>
+
+
+                <div class="texts row pt-5">
+                    <h1 class="col-12 d-flex align-items-center justify-content-center"
+                        style="font-weight: 900; font-size: 25px; color: #241400; margin-bottom: 60px;">Каталог</h1>
+                </div>
+
+
+
+                <div class="row d-flex ">
+
+                    <div class="col d-flex justify-content-center align-items-center gap-5 mb-4">
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">Книги
+                            </h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center;  font-size: 14px; color: #241400; font-weight: 700;">
+                                Электронные книги</h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">
+                                Аудиокниги</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col d-flex justify-content-center align-items-center gap-5 mb-4">
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">Игрушки,
+                                творчество</h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center;  font-size: 14px; color: #241400; font-weight: 700;">Книжные
+                                аксессуарые</h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">Блокноты
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col d-flex justify-content-center align-items-center gap-5 mb-4">
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">
+                                Настольные игрые</h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center;  font-size: 14px; color: #241400; font-weight: 700;">Подарки
+                            </h3>
+                        </div>
+
+                        <div style="width: 242px; height: 76px; border-radius: 10px; padding: 2px;"
+                            class="card shadow d-flex justify-content-center align-items-center">
+                            <h3 style="text-align: center; font-size: 14px; color: #241400; font-weight: 700;">Акции
+                            </h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="">
+
+                    <div class="texts row pt-5">
+
+                        <h1 class="col-12 d-flex align-items-center justify-content-center"
+                            style="font-weight: 900; font-size: 25px; color: #241400; margin-bottom: 60px;">О магазине
+                        </h1>
+
+                    </div>
+
+                    <div class=" d-flex justify-content-around align-items-center text-align-center">
+
+
+                        <div class=" d-flex justify-content-center align-items-center text-align-center gap-2">
+                            <p
+                                style="font-size: 50px; line-height: 60px; text-align: center; align-items: center; font-weight: 900;">
+                                35</p>
+                            <p style="text-align: center; color: #241400;">Филиалов по всей стране</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center text-align-center gap-2">
+                            <p
+                                style="font-size: 50px; line-height: 60px; text-align: center; align-items: center;  font-weight: 900;">
+                                898</p>
+                            <p style="text-align: center; color: #241400;">Товаров в каталоге</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center text-align-center gap-2">
+                            <p
+                                style="font-size: 50px; line-height: 60px; text-align: center; align-items: center;  font-weight: 900;">
+                                8659</p>
+                            <p style="text-align: center; color: #241400;">Покупателей</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center text-align-center gap-2">
+                            <p
+                                style="font-size: 50px; line-height: 60px; text-align: center; align-items: center;  font-weight: 900;">
+                                72</p>
+                            <p style="text-align: center; color: #241400;">Часоа доставка по городам</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div>
+
+                    <h1 class="col-12 d-flex align-items-center justify-content-center"
+                        style="font-weight: 900; font-size: 25px; color: #241400; margin-top: 60px;">Доставка
+                    </h1>
+
+                    <p style="text-align: center; align-items: center; margin-top: 50px;">Работаем без праздников и
+                        выходных! Жители Киева могут получить заказ уже в день его оформления.
+                        Клиенты из других городов Украины могут получить заказ в течение <br> зависимости от
+                        местонахождения населенного пункта и выбранного способа доставки. Заказы на сумму свыше 1000 грн
+                        доставляются бесплатно*. Доступные способы,<br> и стоимость доставки Вы можете увидеть
+                        во время оформления заказа в корзине заказа, после выбора города доставки.
+
+                    </p>
+
+                    <p style="text-align: center; font-weight: 900; color: #000000;">Подробнее</p>
+
+                </div>
+
+
+                <h1 class="col-12 d-flex align-items-center justify-content-center"
+                    style="font-weight: 900; font-size: 25px; color: #241400; margin-top: 60px; margin-bottom: 30px;">
+                    Следите за нами в
+                    социальных сетях
+                </h1>
+
+                <div style="text-align: center; align-items: center; margin-bottom: 70px;">
+                    <img src="./icons/Frame 6.svg" alt="logoes">
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <footer class="row" style="background-color: #391F00; padding: 20px;">
+
+            <div class="container">
+
+                <div class=" col-12 d-sm-flex footer-end d-flex justify-content-around mt-5">
+
+                    <div style="margin-top: 40px;">
+                        <img src="./images/Лого.jpg" alt="">
+
+                    </div>
+
+
+                    <div>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="">Популярное</a>
+                            </li>
+
+                            <li>
+                                <a href="">Программирование
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Книги для детей
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Психология
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Бизнес</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="">Информация
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Доставка
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Оплата
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">O магазине
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="">Помощь
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Контакты
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Возврат товара
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">Помощь покупателю
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div>
+                        <img src="./icons/Телефон.svg" alt="telefon">
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-center gap-5 mt-5">
+                    <p style="color: #ffffff;">Все права защищены © 2003-2021 БИБЛИОТЕЧНАЯ</p>
+                    <p style="color: #ffffff;">Условия использования | Политика конфиденциальности</p>
+                </div>
+
+
+            </div>
+
+        </footer>
+
+    </main>
+</body>
+
+</html>
